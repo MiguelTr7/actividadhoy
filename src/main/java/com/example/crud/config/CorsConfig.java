@@ -15,7 +15,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry){
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:8080-la-ruta-de-Front-vercel")
+                        .allowedOrigins("https://frontend-fs-d-mu.vercel.app/")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*");//permite las solicitudes entrantes
             }
